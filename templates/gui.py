@@ -1,5 +1,3 @@
-import datetime, os
-from modules import read_notes
 
 # Функция запроса пункта меню у пользователя
 
@@ -43,6 +41,6 @@ def input_data():
             rating_notes = "Важно"
         else:
             rating_notes = "Обычно"
-    return name_notes, description_notes, rating_notes
+    return user_data
 
 
